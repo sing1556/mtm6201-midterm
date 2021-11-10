@@ -442,9 +442,83 @@ button {
     top: 30%;
 }
 
-.story-img {
-    width: 100%;
+.things-sec {
+    position: absolute;
+    left: 0%;
+    top: 130%;
 }
 
 
+.story-sec {
+    position: absolute;
+    left: 0%;
+    top: 125%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .h2-class {
+        font-size: 30px;
+        position: absolute;
+        top: 40%;
+    }
+
+    .second-banner p {
+        font-size: 10px;
+        position: absolute;
+        top: 65%;
+    }
+
+    .media1 {
+        position: absolute;
+        top: 158%;
+    }
+
+    .media2 {
+        position: absolute;
+        top: 161.66%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        position: absolute;
+        top: 25%;
+    }
+
+    .h2-class {
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+    }
+    .second-banner p {
+        font-size: 7px;
+    }
+
+    .media1 {
+        position: absolute;
+        top: 98.33%;
+    }
+
+    .media2 {
+        position: absolute;
+        top: 100.32%;
+    }
+
+    .nav li {
+        flex: none;
+    }
+
+    .copyright-text {
+        position: absolute;
+        top: 250%;
+    }
+}
 
