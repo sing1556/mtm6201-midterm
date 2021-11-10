@@ -132,11 +132,26 @@ table {
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F6E6EB;
+}
+
+.nav-list {
+    font-family: fantasy;
+    font-size: 25px;
 }
 
 .container {
     max-width: 1500px;
     margin: 0 auto;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 0;
+}
+
+.header-class {
+    background-color: pink;
 }
 
 /* Headings */
@@ -152,7 +167,7 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+.h2-class {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -160,6 +175,19 @@ h2 {
     transform: translate(-50%, -50%);
     color: black;
     font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+h3 {
+    color: black;
+    font-size: 30px;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -184,6 +212,7 @@ nav li {
     display: block;
     text-align: center;
     padding: 12px 0;
+    
 }
 
 /* remove underline and change colour */
@@ -196,7 +225,8 @@ nav li a {
 /* color lists when hover */
 
 nav li:hover a {
-    color: pink;
+    color: red;
+    text-decoration: underline;
 }
 
 nav img {
@@ -251,6 +281,11 @@ footer {
 }
 
 /* paragraphs */
+
+p {
+    font-family: cursive;
+    line-height: 1.6;
+}
 
 .banner p {
     color: white;
@@ -321,3 +356,95 @@ nav li {
     left: 85.5%;
     top: 215.3%;
 }
+
+
+
+
+
+/* ANIMATIONS */
+
+.blackbutton1:hover {
+    transform: scale(2);
+  transition: 0.5s ease-in-out;
+}
+
+.blackbutton2:hover {
+    transform: scale(2);
+  transition: 0.5s ease-in-out;
+} 
+
+.media1:hover {
+    transform: scale(2);
+    transition: 0.2s ease-in-out;
+}
+
+.media2:hover {
+    transform: scale(2);
+    transition: 0.5s ease-in-out;
+}
+
+.copyright-text {
+    position: absolute;
+    left: 5%;
+    top: 217%;
+}
+
+    /* CONTACT PAGE */
+
+
+
+div.contact {
+    /* border of contact section */
+    background-color: pink;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+div.contact .blocklabel {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+input.maxwidth {
+    /* makes input under name and email to be 100% width */
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+textarea#message {
+    /* making message input size bigger and no adjustable  */
+    padding-bottom: 3rem;
+    resize: none;
+    width: 100%;
+}
+
+button {
+    /* adding border, font-size, etc., to button in contact section */
+    background: none;
+    border: 1px solid black;
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+    padding: 0.7rem;
+}
+
+.location-class {
+    position: absolute;
+    top: 95%;
+    left: 1.5%;
+}
+
+.about-sec {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+
+.story-img {
+    width: 100%;
+}
+
+
+
